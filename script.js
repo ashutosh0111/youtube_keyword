@@ -19,7 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
     });
 });
 
-const API_KEY =' AIzaSyB8YyrulBocjYUo7wki41j61K5xD6wv3LU';
+const API_KEY ='';
 
 async function getVideoViews(videoId) {
     const response = await fetch(`https://www.googleapis.com/youtube/v3/videos?part=statistics&id=${videoId}&key=${API_KEY}`);
